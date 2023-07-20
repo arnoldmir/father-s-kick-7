@@ -2,9 +2,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let imageView = UIImageView()
-    let scrollView = UIScrollView()
-    
+    private let imageView = UIImageView()
+    private let scrollView = UIScrollView()
     private let imageViewHeight: CGFloat = 270
     private var scrollIndicatorInsets: CGFloat {
         let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
